@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<androidx.appcompat.widget.Toolbar-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorPrimary"></androidx.appcompat.widget.Toolbar>-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/toolbar_text1"
+            android:text="@string/app_title"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:paddingTop="1dp">
+
+
+        <LinearLayout
+            android:id="@+id/move"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/ccb"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn"
+                android:text="@string/ccb"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/bm"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b_ball"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/b_ball"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/as"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/as"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/csd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/csd"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/ad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/ad"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/admin"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/adb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/adb"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/foe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/foe"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/fbme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/fbme"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/adb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/adb"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/get_fund"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/get_fund"
+                android:textColor="@color/toolbar_text"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/scroll"
+        android:layout_marginBottom="-50dp"
+        android:text="@string/info"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

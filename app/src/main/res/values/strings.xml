@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Campus Finder</string>
+    <string name="app_title">Where do you want to go?</string>
+    <string name="ccb">Central Classroom block(CCB)</string>
+    <string name="as">Faculty Of Applied Science Block(AS)</string>
+    <string name="ad">Administration Block(AD)</string>
+    <string name="foe">Faculty Of Engineering Block(FOE)</string>
+    <string name="admin">Administration</string>
+    <string name="fbme">Faculty Of Natural And Built Environment Block(FNBE)</string>
+    <string name="bm">Faculty of Business Management Block(BM)</string>
+    <string name="b_ball">Basket ball court</string>
+    <string name="field">field</string>
+    <string name="adb">ADB bank</string>
+    <string name="csd">Computer Science Department(CS)</string>
+    <string name="get_fund">Get Fund</string>
+    <string name="version">version 4.4</string>
+    <string name="click">To view the image of the block click here</string>
+    <string name="info">Group 3</string>
+
+</resources>
